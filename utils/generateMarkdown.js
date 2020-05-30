@@ -21,28 +21,27 @@ function generateMarkdown(data) {
     3. [License] (#license)
     4. [Contributors] (#contributors)
     5. [Tests] (#tests)
-    6. [GitHub Profile Picture] (#profilePicture)
-    7. [Github Email] (#githubEmail)
+    6. [Questions] (#questions)
     `;
   }
   return (
     `# ${data.projectTitle}\n` +
     `## Description\n ${data.description}\n\n` +
     `${data.tableOfContents}\n\n` +
-    `## Installation\n` +
+    `## Installation <a name ='installation'></a>\n` +
     "```" +
     `${data.install}` +
     "```" +
     `\n\n` +
-    `## Usage\n ${data.usage} \n\n` +
-    `## License\n ${data.license}\n\n` +
-    `## Contributors\n ${data.contributors}\n\n` +
-    `## Tests\n` +
+    `## Usage<a name ='usage'></a>\n ${data.usage} \n\n` +
+    `## License<a name ='license'></a>\n ${data.license}\n\n` +
+    `## Contributors<a name ='contributors'></a>\n ${data.contributors}\n\n` +
+    `## Tests<a name ='tests'></a>\n` +
     "```" +
     `${data.tests}` +
     "```" +
     `\n\n` +
-    `## Questions\n ${data.username}\n\n`
+    `## Questions<a name ='questions'></a>\n ${data.username}\n\n`
   );
   
 }

@@ -1,6 +1,6 @@
-# ReadMe Generator
+# Readme Generator
 ## Description
- It creates readmes
+ It generates readmes
 
 ## Table of Contents
     1. [Installation] (#installation) 
@@ -8,25 +8,24 @@
     3. [License] (#license)
     4. [Contributors] (#contributors)
     5. [Tests] (#tests)
-    6. [GitHub Profile Picture] (#profilePicture)
-    7. [Github Email] (#githubEmail)
+    6. [Questions] (#questions)
     
 
-## Installation
+## Installation <a name ='installation'></a>
 ```npm install```
 
-## Usage
- To create readmes 
+## Usage<a name ='usage'></a>
+ To Create Readmes 
 
-## License
+## License<a name ='license'></a>
  MIT
 
-## Contributors
+## Contributors<a name ='contributors'></a>
  Scott House
 
-## Tests
+## Tests<a name ='tests'></a>
 ```npm test```
 
-## Questions
+## Questions<a name ='questions'></a>
  sehouse
 
