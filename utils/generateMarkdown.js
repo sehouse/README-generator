@@ -15,14 +15,14 @@
 
 function generateMarkdown(data) {
   if (data.tableOfContents === "Yes") {
-    data.tableOfContents = `## Table of Contents
-    1. [Installation] (#installation) 
-    2. [Usage] (#usage)
-    3. [License] (#license)
-    4. [Contributors] (#contributors)
-    5. [Tests] (#tests)
-    6. [Questions] (#questions)
-    `;
+    data.tableOfContents = "## Table of Contents\n" +
+    "1. [Installation] (#installation)\n" +
+    "2. [Usage] (#usage)\n" +
+    "3. [License] (#license)\n" +
+    "4. [Contributors] (#contributors)\n" +
+    "5. [Tests] (#tests)\n" +
+    "6. [Questions] (#questions)"
+    ;
   }
   return (
     `# ${data.projectTitle}\n` +
