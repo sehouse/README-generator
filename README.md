@@ -1,25 +1,30 @@
+# ReadMe Generator
+## Description
+ It generates readmes
 
-  # fdsfdagg
-  ## Description
-  gfdseaw
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributors](#contributors)
+5. [Tests](#tests)
+6. [Questions](#questions)
 
-  ## Table of Contents
-  * [Installation](#installation)
+## Installation
+```npm install```
 
-  ## Installation
-  fdsaew 
-  
-  ## Usage
-  asdgr
-    
-  ## License
-  gerg
-    
-  ## Contributors
-  agrwe
+## Usage
+ To generate readmes 
 
-  ## Tests
-  afg
-  
-  ## Questions
-  sdfger
+## License
+ MIT
+
+## Contributors
+ Scott House
+
+## Tests
+```npm test```
+
+## Questions
+ sehouse
+
