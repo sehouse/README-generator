@@ -29,10 +29,10 @@ const questions = [
 
     //How to install:
     {
-        type: "list",
+        type: "input",
         name: "install",
-        message: "Did you install any dependencies?",
-        choices: ["Yes", "No"],
+        message: "How do you install your dependencies?",
+
     },
 
     //What is your usage?
@@ -58,53 +58,35 @@ const questions = [
 
     //What are your tests?
     {
-        type: 'list',
+        type: 'input',
         name: 'tests',
-        message: 'Do you have any tests?',
-        choices: [
-            'Yes',
-            'No'
-        ]
+        message: 'How do you test your project?',
     },
 
     //Github username
     {
         type: 'input',
         name: 'username',
-        message: 'What is your GitHub username?'
+        message: 'What is your GitHub username, so that you can be contacted for user questions?'
     },
-
-    //Github profile picture?
-    {
-        type: 'list',
-        name: 'userPic',
-        message: 'Would you like to include your GitHub profile picture?',
-        choices: [
-            'Yes',
-            'No'
-        ]
-    },
-
-    //Github email
-    {
-        type: 'list',
-        name: 'email',
-        message: 'Would you like to include your GitHub user email?',
-        choices: [
-            'Yes',
-            'No'
-        ]
-    }
 ];
 
 function writeToFile(fileName, data) {
-    //What destination for the file?
-    //Need to create a file with the name fileName
-    //Write to this fileName the data
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            return console.log(err);
+        } else {
+            console.log("File Successfully Written!")
+        };
+    });
 }
 
 function init() {
     //Initialize the things that I need here
+    inquirer.prompt(questions).then(async data => {
+        let markdown = await generateMarkdown.generateMarkdown(data);
+        writeToFile('README.md', markdown);
+    });
 }
 
 init();
