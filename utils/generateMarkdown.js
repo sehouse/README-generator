@@ -28,20 +28,20 @@ function generateMarkdown(data) {
     `# ${data.projectTitle}\n` +
     `## Description\n ${data.description}\n\n` +
     `${data.tableOfContents}\n\n` +
-    `## Installation <a name ='installation'></a>\n` +
+    `## Installation\n` +
     "```" +
     `${data.install}` +
     "```" +
     `\n\n` +
-    `## Usage<a name ='usage'></a>\n ${data.usage} \n\n` +
-    `## License<a name ='license'></a>\n ${data.license}\n\n` +
-    `## Contributors<a name ='contributors'></a>\n ${data.contributors}\n\n` +
-    `## Tests<a name ='tests'></a>\n` +
+    `## Usage\n ${data.usage} \n\n` +
+    `## License\n ${data.license}\n\n` +
+    `## Contributors\n ${data.contributors}\n\n` +
+    `## Tests\n` +
     "```" +
     `${data.tests}` +
     "```" +
     `\n\n` +
-    `## Questions<a name ='questions'></a>\n ${data.username}\n\n`
+    `## Questions\n ${data.username}\n\n`
   );
   
 }

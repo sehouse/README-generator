@@ -10,21 +10,21 @@
 5. [Tests] (#tests)
 6. [Questions] (#questions)
 
-## Installation <a name ='installation'></a>
+## Installation
 ```npm install```
 
-## Usage<a name ='usage'></a>
+## Usage
  To Create Readmes 
 
-## License<a name ='license'></a>
+## License
  MIT
 
-## Contributors<a name ='contributors'></a>
+## Contributors
  Scott House
 
-## Tests<a name ='tests'></a>
+## Tests
 ```npm test```
 
-## Questions<a name ='questions'></a>
+## Questions
  sehouse
 
