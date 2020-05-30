@@ -28,7 +28,7 @@ function generateMarkdown(data) {
     `# ${data.projectTitle}\n` +
     `## Description\n ${data.description}\n\n` +
     `${data.tableOfContents}\n\n` +
-    `## Installation\n` +
+    `<a name="installation"></a>## Installation\n` +
     "```" +
     `${data.install}` +
     "```" +
