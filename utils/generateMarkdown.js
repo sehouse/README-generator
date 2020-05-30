@@ -21,7 +21,8 @@ function generateMarkdown(data) {
   return (
     `# ${data.projectTitle}\n` +
     `## Description\n ${data.description}\n\n` +
-    `${data.tableOfContents}\n\n` +
+    `## Table of Contents\n` +
+    `* [Installation] (#installation)\n` +
     `## <a name ="installation"></a>Installation\n` +
     "```" +
     `${data.install}` +
@@ -35,7 +36,7 @@ function generateMarkdown(data) {
     `${data.tests}` +
     "```" +
     `\n\n` +
-    `## <a name ="questions"></a>Questions\n ${data.username}\n\n`
+    `## <a name ="installation"></a>Questions\n ${data.username}\n\n`
   );
   
 }
