@@ -22,8 +22,8 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Installation] (#installation)
 
-  ##Installation
-  ${ data.install } 
+  ## Installation
+  ${data.install} 
   
   ## Usage
   ${data.usage}
