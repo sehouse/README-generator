@@ -22,7 +22,7 @@ function generateMarkdown(data) {
     `# ${data.projectTitle}\n` +
     `## Description\n ${data.description}\n\n` +
     `## Table of Contents\n` +
-    `* [Installation] (https://github.com/sehouse/README-generator#installation)\n` +
+    "* [Installation] (https://github.com/sehouse/README-generator#installation)\n" +
     `##Installation\n` +
     "```" +
     `${data.install}` +
