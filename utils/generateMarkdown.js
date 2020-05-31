@@ -24,10 +24,8 @@ async function generateMarkdown(data) {
     //Project title
     `# ${data.projectTitle}\n\n` +
 
-    //Badges
-    `[![Github license](https://img.shields.io/static/v1?label=License&message=${data.license}&color=blue)](#license)` +
-    "" +
-    `[![Contributors](https://img.shields.io/static/v1?label=License&message=${data.contributors}&color=yellow)](#contributors)\n\n` +
+    //Badge
+    `[![Github license](https://img.shields.io/static/v1?label=License&message=${data.license}&color=blue)](#license)\n\n` +
 
     //Project Description
     `## Description\n ${data.description}\n\n` +

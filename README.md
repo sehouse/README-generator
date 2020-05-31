@@ -1,6 +1,6 @@
 # README Generator
 
-[![Github license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](#license)[![Contributors](https://img.shields.io/static/v1?label=License&message=Scott House&color=yellow)](#contributors)
+[![Github license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](#license)
 
 ## Description
  This project takes command line user input and creates a README markdown file, to be used as a README for GitHub.
