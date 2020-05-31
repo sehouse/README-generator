@@ -66,7 +66,7 @@ async function generateMarkdown(data) {
     //Questions and Contact
     `## Questions\n` +
     `<img src="${gitAPI.data.avatar_url}">\n"` +
-    `If you have questions about this project, feel free to contact email the contributor at [${gitAPI.data.email}](${gitAPI.data.email}) and visit their Github Account at(https://github.com/${data.username})\n\n`
+    `If you have questions about this project, feel free to contact email the contributor at [${gitAPI.data.email}](${gitAPI.data.email}) and visit their Github Account at https://github.com/${data.username} .\n\n`
 
   ); 
 }
