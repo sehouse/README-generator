@@ -20,12 +20,13 @@ async function generateMarkdown(data) {
     data.tableOfContents = "";
   }
   return (
-    
+
     //Project title
     `# ${data.projectTitle}\n\n` +
 
     //Badges
     `[![Github license](https://img.shields.io/static/v1?label=License&message=${data.license}&color=blue)](#license)` +
+    "" +
     `[![Contributors](https://img.shields.io/static/v1?label=License&message=${data.contributors}&color=yellow)](#contributors)\n\n` +
 
     //Project Description

@@ -1,9 +1,9 @@
 # README Generator
 
-[![Github license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](#license)[![Contributors](https://img.shields.io/static/v1?label=License&message=Scott House&color=yellow)](#contributors)
+[![Github license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](#license) [![Contributors](https://img.shields.io/static/v1?label=License&message=Scott House&color=yellow)](#contributors)
 
 ## Description
- Ths project uses JavaScript and API calls to GitHub to create a ReadMe markdown file from command line user input.
+ This project generates ReadMe markdown files based on command line user input.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -18,7 +18,7 @@ To install the depedencies necessary for this to function, run this command:
 ```npm install```
 
 ## Usage
- It is just some JavaScript code with a couple of dependencies installed to transition user input between files. 
+ This project uses Javascript and API Calls to GitHub to get the information used to create the ReadMe file. 
 
 ## License
 This project is licensed under the MIT license.
