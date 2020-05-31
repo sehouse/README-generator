@@ -25,7 +25,8 @@ function generateMarkdown(data) {
     ;
   }
   return (
-    `# ${data.projectTitle}\n` +
+    `# ${data.projectTitle}\n\n` +
+    `[![Github license](https://img.shields.io/static/v1?label=License&message=${data.license}&color=blue)]()` +
     `## Description\n ${data.description}\n\n` +
     `${data.tableOfContents}\n\n` +
     `## Installation\n` +
