@@ -37,7 +37,7 @@ async function generateMarkdown(data) {
 
     //Installation
     `## Installation\n` +
-    `To install the depedencies necessary for this to function, run this command:\n` +
+    `To install the depedencies necessary for this to function, run this command:\n\n` +
     "```" +
     `${data.install}` +
     "```" +
@@ -57,7 +57,7 @@ async function generateMarkdown(data) {
 
     //Tests
     `## Tests\n` +
-    `To test this project, run this command:\n` +
+    `To test this project, run this command:\n\n` +
     "```" +
     `${data.tests}` +
     "```" +
@@ -66,7 +66,7 @@ async function generateMarkdown(data) {
     //Questions and Contact
     `## Questions\n` +
     `<img src="${gitAPI.data.avatar_url}">\n"` +
-    `If you have questions about this project, feel free to contact [${gitAPI.data.email}](${gitAPI.data.email}) and visit their [GitHub account](https://github.com/${data.username})\n\n`
+    `If you have questions about this project, feel free to contact email the contributor at [${gitAPI.data.email}](${gitAPI.data.email}) and visit their Github Account at(https://github.com/${data.username})\n\n`
 
   ); 
 }
