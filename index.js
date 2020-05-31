@@ -2,6 +2,7 @@ const fs = require("fs");
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
+
 //Array of questions to user 
 const questions = [
 
@@ -87,6 +88,7 @@ function init() {
         let markdown = await generateMarkdown.generateMarkdown(data);
         writeToFile('README.md', markdown);
     });
+
 }
 
 init();
